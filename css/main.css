@@ -270,17 +270,49 @@ body {
     gap: 100px;
 }
 
-.footer .section .f_menu > ul > a {}
+.footer .section .f_menu > ul > a {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    padding: 10px;
+}
 
-.footer .section .f_menu li {}
+.footer .section .f_menu > ul > li > ul a  {
+    font-size: 13px;
+    color: #ddd;
+}
 
+.footer .section .f_menu > ul > li > ul a:hover {
+    text-decoration: underline;
+}
 
-.footer .section .copyright {}
+.footer .section .copyright {
+    color: #ddd;
+    font-size: 12px;
+    margin-top: 70px;
+}
 
 .footer .section .sns {
+    display: flex;
+    gap: 20px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 70px;
+    right: 50px;
+}
+
+.footer .section .sns a {
+    display: block;
+}
+
+.footer .section .sns i {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: #111;
 }
 
 
